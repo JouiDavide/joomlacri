@@ -7,6 +7,6 @@ This repo is a work-in-progress, it does not reflect the joomla template actuall
 Please do not contribute just yet.
 
 *italian* - 
-Template Joomla 2.5.x per Comitato Locali di Croce Rossa Italiana.
+Template Joomla 2.5.x per Comitati Locali di Croce Rossa Italiana.
 Questa repository è in costruzione, il codice qui presente non è quello veramente utilizzato nei siti web.
 Non sono (ancora) accettati nuovi commit, grazie.
