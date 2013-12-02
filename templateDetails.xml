@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<extension
+type="template"
+version="2.5.16"
+client="site"
+method="install">
+	
+<name>Croce Rossa Italiana - Joomla Template</name>
+<version>1.00</version>
+<author>Davide G. Grego</author>
+<authorEmail>webmaster@cricasatenovo.it</authorEmail>
+<creationDate>Feb 2012</creationDate>
+<copyright>Copyright 2012-2014 Croce Rossa Italiana</copyright>
+<description>Template Joomla 2.5.x per Comitati Locali di Croce Rossa Italiana.</description>
+
+<files>
+<folder>css</folder>
+<folder>images</folder>
+<folder>html</folder>
+<filename>index.html</filename>
+<filename>index.php</filename>
+<filename>templateDetails.xml</filename>
+<filename>favicon.ico</filename>
+<filename>offline.php</filename>
+<filename>jquery.cycle.lite.js</filename>
+<filename>jquery.min.js</filename>
+<filename>template_preview.png</filename>
+<filename>template_thumbnail.png</filename>
+</files>
+
+<positions>
+<position>menu-main</position>
+<position>search</position>
+<position>menu-login</position>
+<position>box1</position>
+<position>box2</position>
+<position>box3</position>
+<position>box4</position>
+<position>box5</position>
+<position>box6-nobox</position>
+<position>over-component-1</position>
+<position>scroller</position>
+<position>over-component-2</position>
+<position>under-message</position>
+<position>under-component-1</position>
+
+<!-- Joomla Standard Positions -->
+<position>breadcrumb</position>
+<position>left</position>
+<position>right</position>
+<position>top</position>
+<position>user1</position>
+<position>user2</position>
+<position>user3</position>
+<position>user4</position>
+<position>footer</position>
+</positions>
+
+</extension>
