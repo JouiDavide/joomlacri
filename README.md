@@ -16,3 +16,8 @@ Firebug (firefox extension) - https://getfirebug.com/
 
 ###Useful links
 http://www.w3schools.com/cssref/css3_browsersupport.asp
+
+###Thanks to
+lojjic's CSS3 PIE
+https://github.com/lojjic/PIE/issues
+for the amazing attempt to bring CSS3 support on older IE versions.
