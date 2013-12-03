@@ -56,75 +56,40 @@ timeout:  4500,
 <?php if ($this->countModules('menu-main')) : ?><div class="menubottomwhite"></div><?php endif; ?>
 <?php if ($this->countModules('search')) : ?>
 <div class="menu-red">
-<div class="cornertopleft">
-<div class="cornertopright">
-<div class="cornerbottomleft">
-<div class="cornerbottomright">
 <jdoc:include type="modules" name="search" style="xhtml" /> 
 </div>
-</div></div></div></div>
 <?php endif; ?>
 <?php if ($this->countModules('box1')) : ?>
 <div class="menu-grey">
-<div class="cornertopleft">
-<div class="cornertopright">
-<div class="cornerbottomleft">
-<div class="cornerbottomright">
 <jdoc:include type="modules" name="box1" style="xhtml" />
 </div>
-</div></div></div></div>
 <?php endif; ?>
 <?php if ($this->countModules('menu-login')) : ?>
 <div class="menu-login">
-<div class="cornertopleft">
-<div class="cornertopright">
-<div class="cornerbottomleft">
-<div class="cornerbottomright">
 <div class="menuovveride">
 <jdoc:include type="modules" name="menu-login" style="xhtml" />
 </div>
 </div>
-</div></div></div></div>
 <?php endif; ?>
 <?php if ($this->countModules('box2')) : ?>
 <div class="menu-grey">
-<div class="cornertopleft">
-<div class="cornertopright">
-<div class="cornerbottomleft">
-<div class="cornerbottomright">
 <jdoc:include type="modules" name="box2" style="xhtml" />
 </div>
-</div></div></div></div>
 <?php endif; ?>
 <?php if ($this->countModules('box3')) : ?>
 <div class="menu-grey">
-<div class="cornertopleft">
-<div class="cornertopright">
-<div class="cornerbottomleft">
-<div class="cornerbottomright">
 <jdoc:include type="modules" name="box3" style="xhtml" />
 </div>
-</div></div></div></div>
 <?php endif; ?>
 <?php if ($this->countModules('box4')) : ?>
 <div class="menu-grey">
-<div class="cornertopleft">
-<div class="cornertopright">
-<div class="cornerbottomleft">
-<div class="cornerbottomright">
 <jdoc:include type="modules" name="box4" style="xhtml" />
 </div>
-</div></div></div></div>
 <?php endif; ?>
 <?php if ($this->countModules('box5')) : ?>
 <div class="menu-grey">
-<div class="cornertopleft">
-<div class="cornertopright">
-<div class="cornerbottomleft">
-<div class="cornerbottomright">
 <jdoc:include type="modules" name="box5" style="xhtml" />
 </div>
-</div></div></div></div>
 <?php endif; ?>
 <?php if ($this->countModules('box6-nobox')) : ?>
 <div class="menu-alpha">
@@ -172,10 +137,8 @@ timeout:  4500,
 <?php if ($this->countModules('under-component-1')) : ?>
 <div class="under-component-wrapper">
 <div id="under-component-1">
-<div class="cornertopleftwhite">
-<div class="cornertoprightwhite">
 <jdoc:include type="modules" name="under-component-1" style="xhtml" />
-</div></div></div></div>
+</div></div>
 <?php endif; ?>
 </div></div>
 <!-- end right side -->

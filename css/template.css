@@ -1,5 +1,5 @@
 @charset "utf-8";
-/* This CSS Stylesheet is part of the "Croce Rossa Italiana - Joomla Template" */
+/* This CSS Stylesheet is part of the "JoomlaCRI!" Joomla Template */
 /* RESET */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -213,8 +213,6 @@ table.table-noborder, table.table-noborder tr, table.table-noborder td, table.ta
 /*MODULE MENU*/
 .menu-main, .menu-red, .menu-login, .menu-grey
 {
-	background-repeat:repeat-y;
-	background-position:top center;
 	text-indent:15px;
 	color: #FFFFFF;
 }
@@ -222,27 +220,35 @@ table.table-noborder, table.table-noborder tr, table.table-noborder td, table.ta
 .menu-main
 {
 	padding: 28px 0 26px 0;
-	border-radius: 0 0 15px 15px;
 	background-color: #cc0000;
-	background-image:url('../images/menured.png');
+	border-radius: 0 0 15px 15px;
+	-webkit-border-radius: 0 0 15px 15px;
+	-moz-border-radius: 0 0 15px 15px;
+	behavior: url('/templates/joomlacri/pie/PIE.php'); /* lteIE8 border-radius */
+	position:relative; /* withouth this PIE does not work */
 }
-
 .menu-red, .menu-login, .menu-grey {
 	padding: 26px 0;
 	border-radius: 8px 8px 8px 8px;
 	margin: 8px 0;
 }
 
-.menu-red
-{
-  background-color: #cc0000;
-  background-image:url('../images/menured.png');
+.menu-red, .menu-login, .menu-grey {
+	margin: 8px 0;
+	padding: 26px 0;
+	border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	behavior: url('/templates/joomlacri/pie/PIE.php'); /* lteIE8 border-radius */
+	position:relative; /* withouth this PIE does not work */
 }
 
+.menu-red {
+    background-color: #CC0000;
+}
 .menu-grey, .menu-login
 {
   background-color: #8c8c8c;
-  background-image:url('../images/menugrey.png');
 }
 
 .menu-alpha {
@@ -279,16 +285,12 @@ ul.menu
 
 ul.menu a
 {
-  /*display: -moz-inline-box; */
   display:inline-block;
   width:174px;
   padding: 0 10px;
   margin: 2px 0px;
   text-indent:0px;
 }
-
-* html ul.menu a {display:inline;}  /* for IE 6 */
-* + html ul.menu a {display:inline;}  /* for IE 7 */
 
 ul.menu li span.separator {padding:0 10px;}
 ul.menu ul li a:link, ul.menu ul li.current a, ul.menu ul ul li a:link, .menuovveride ul.menu ul li a:link {background-image:none; text-decoration:none;}
@@ -414,6 +416,10 @@ table.table-userlog ul {
   width:699px;
   background-color:#FFFFFF;
   border-radius: 0 0 10px 10px;
+  -webkit-border-radius: 0 0 10px 10px;
+  -moz-border-radius: 0 0 10px 10px;
+  behavior: url('/templates/joomlacri/pie/PIE.php'); /* lteIE8 border-radius */
+  position:relative; /* withouth this PIE does not work */
 }
 
 .component
@@ -439,7 +445,11 @@ table.table-userlog ul {
 
 #under-component-1 {
 	background: #666;
-	border-radius: 8px 8px 8px 8px;
+	border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;;
+	behavior: url('/templates/joomlacri/pie/PIE.php'); /* lteIE8 border-radius */
+	position:relative; /* withouth this PIE does not work */
 }
 
 #under-component-1 h3 {
