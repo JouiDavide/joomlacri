@@ -10,3 +10,9 @@ Please do not contribute just yet.
 Template Joomla 2.5.x per Comitati Locali di Croce Rossa Italiana.
 Questa repository è in costruzione, il codice qui presente non è quello veramente utilizzato nei siti web.
 Non sono (ancora) accettati nuovi commit, grazie.
+
+###Useful tools
+Firebug (firefox extension) - https://getfirebug.com/
+
+###Useful links
+http://www.w3schools.com/cssref/css3_browsersupport.asp
