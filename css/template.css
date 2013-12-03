@@ -1,6 +1,5 @@
 @charset "utf-8";
-/* CSS Stylesheet for C.R.I. Casatenovo
-  Created by Davide G. Grego */
+/* This CSS Stylesheet is part of the "Croce Rossa Italiana - Joomla Template" */
 /* RESET */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -222,21 +221,10 @@ table.table-noborder, table.table-noborder tr, table.table-noborder td, table.ta
 
 .menu-main
 {
-	padding: 28px 0 10px 0;
+	padding: 28px 0 26px 0;
+	border-radius: 0 0 15px 15px;
 	background-color: #cc0000;
 	background-image:url('../images/menured.png');
-}
-
-
-div.menubottomwhite
-{
-	height: 16px;
-	position:relative;
-	top:-2px;
-	margin-bottom: 5px;
-	background-image: url('../images/menubottomwhiteline.png');
-	background-position: top center; 
-  	background-repeat:no-repeat;
 }
 
 .menu-red, .menu-login, .menu-grey {
