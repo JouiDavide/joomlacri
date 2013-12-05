@@ -28,14 +28,13 @@ timeout:  4500,
 </head>
 
 <body>
-<div id="main-1">
-<div id="main-2">
+<div id="wrapper">
 
 <!-- header -->
 <div id="headerlink">
 <a id="ahome" href="<?php echo $this->baseurl ?>"></a>
-<a id="aemail" href="mailto:info@cricasatenovo.it"></a>
-<a id="amaps" href="http://goo.gl/maps/aaO0S" target="_blank"></a></div>
+<a id="aemail" href="#"></a>
+<a id="amaps" href="#" target="_blank"></a></div>
 <div id="header">
 <img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/images/header/header1.png" alt="Header" />
 <img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/images/header/header2.png" alt="Header" />
@@ -44,7 +43,6 @@ timeout:  4500,
 </div>
 <!-- end header -->
 
-<div id="main-content">
 <div id="sidebar">
 
 <!-- sidebar -->
@@ -144,7 +142,6 @@ timeout:  4500,
 <!-- end right side -->
 
 </div>
-</div>
 <div id="footer">
 
 <!-- footer -->
@@ -153,7 +150,6 @@ timeout:  4500,
 <?php endif; ?>
 <!-- end footer -->
 
-</div>
 </div>
 </div>
 </body>

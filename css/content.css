@@ -1,5 +1,6 @@
 @charset "utf-8";
 /* This CSS Stylesheet is part of the "JoomlaCRI!" Joomla Template */
+
 /* System Standard Messages */
 #system-message { margin: 20px 0; text-align:center; font-size:16px; }
 #system-message dd.message ul { background: #C3D2E5 url() 4px center no-repeat;border-top: 3px solid #DE7A7B; border-bottom: 3px solid #DE7A7B; margin:0px; padding:30px 0;}
@@ -7,10 +8,7 @@
 #system-message dd.error ul { color: #c00; background: #E6C0C0 url() 4px center no-repeat; border-top: 3px solid #DE7A7B; border-bottom: 3px solid #DE7A7B; margin:0px; padding:30px 0;}
 /* System Notice Messages */
 #system-message dd.notice ul { color: #c00; background: #EFE7B8 url() 4px center no-repeat; border-top: 3px solid #F0DC7E; border-bottom: 3px solid #F0DC7E; margin:0px; padding:30px 0;}
-/* now useless .margin
-{
-margin: 0px;
-} */
+
 /* BLOG LAYOUT*/
 .cols-1 {
 display: block;
@@ -59,14 +57,12 @@ width: 30%;
 .blog-more {
 padding: 10px 5px;
 }
-
 /* BLOG LAYOUT*/
-div.item-page
-{
-margin: 0px;
+
+div.item-page {
+margin: 0;
 }
-.actions
-{
+.actions {
 float:right;
 }
 dd.published {
@@ -123,15 +119,12 @@ div.blog-heading {
 span.subtitle {
 	font-size:16px;
 }
-
-div.homepage
-{
-margin: 0px;
+div.homepage {
+margin: 0;
 font-style:italic;
 }
-/* TABELLE */
-table.category
-{
+/* TABLES */
+table.category {
 width: 100%;
 text-align:center;
 vertical-align:middle;
@@ -152,34 +145,27 @@ td.list-title ul, td.list-title ul li {
 	margin: 0;
 	list-style:none;
 }
-td.list-edit
-{
+td.list-edit {
 width:18px;
 }
-
 .blog-featured table, .blog-featured td, .blog-featured tr {
-	border:none; /* no default table borders on homepage */
+	border:none; /* no default table borders in homepage */
 }
-
 div.blog-part1 {
 	background:#eaeaea;
 	padding: 5px;
 }
-
 div.item-separator
 {
-background-color: transparent;
 height:3px;
 background: #bdbdbd;
 margin: 10px 0;
 clear:both;
 }
-
 .blog div.item-separator {
 	margin: 10px 0 20px 0;
 	background: #EAEAEA;
 }
-
 .blog div.items-more, .blog div.cat-children
 {
 	padding:10px 0;
@@ -195,9 +181,8 @@ clear:both;
 .blog div.category-part1 {
 	padding-bottom:10px;
 }
-
 .blog-part1 span.article-title {
-	font-size:16px;
+	font-size:1.33em;
 }
 .blog-part1 span.article-title a {
 	text-decoration:none;
@@ -209,27 +194,22 @@ clear:both;
 	color:#cc0000;
 	margin-left: 10px;
 }
-
 div.pagenavcounter {
 	font-style:italic;
 	text-align: center;
 }
-
 div.pagination {
 		text-align:center;
 }
 div.pagination ul {
 	margin:0;
 }
-
-div.pagination ul li 
-{
+div.pagination ul li {
 display: inline;
 margin: 0 10px;
 text-align: center;
 font-weight:bold;
 }
-
 div#article-index {
 	text-align:center;
 	margin:0 auto;
@@ -239,13 +219,11 @@ div#article-index ul li {
 	display:inline;
 	padding:0 10px;
 }
-
 div.pagination table.table-pagination {
 	width:100%;
 	background: #eaeaea;
 }
-.error-main
-{
+.error-main {
 width: 50%;
 margin: 0 auto;
 background:red;
@@ -253,8 +231,7 @@ padding: 20px;
 font-weight:bold;
 text-align:center;
 }
-.sitemap
-{
+.sitemap {
 line-height:18px;
 }
 
@@ -274,11 +251,9 @@ div.edit table.table-edit tr.table-part1 button.bigbutton {
     height: 50px;
     width: 150px;
 }
-
 div.edit table.table-edit tr.table-part2 {
 	vertical-align:top;
 }
-
 table.table-edit fieldset label {
   float:left;
   margin-right:0.5em;
@@ -287,7 +262,6 @@ table.table-edit fieldset label {
 table.table-edit fieldset legend {
 	font-style:italic;
 }
-
 div.edit div.formelm, div.edit div.formelm-area {
 	margin:0.8em 0;
 }
@@ -298,31 +272,24 @@ div.edit div.form-note {
 	margin:0.8em 0;
 	text-align:justify;
 }
-
 th.list-hits, td.list-hits {
 	width:40px;
 }
-
 /* end article edit */
 
-.banneritem
-{
+.banneritem {
 margin: 5px auto;
 }
-.article-part1
-{
+.article-part1 {
 padding-bottom:30px;
 }
-.weblinks {
-padding-left: 15px;
-text-indent: 0;
+.weblinks {	
 list-style:none;
 }
 .weblinks li {
 padding: 4px 0;
 }
-.weblinks li a:hover
-{
+.weblinks li a:hover {
 text-decoration:underline;
 }
 .search input {
@@ -333,7 +300,7 @@ margin: 0 auto;
 padding-bottom: 8px;
 }
 
-.items-more-box {
+.items-more-box { /* homepage */
 	 background: #666;
 	 margin:10px auto;
 	 border-radius: 8px;
@@ -342,14 +309,12 @@ padding-bottom: 8px;
 	 behavior: url('/templates/joomlacri/pie/PIE.php'); /* lteIE8 border-radius */
 	 position:relative; /* withouth this PIE does not work */
 }
-
 .items-more-box h3 {
 	color:#FFF;
 	padding:10px 20px;
 	font-weight:bold;
 	font-size:1.2em;
 }
-
 .items-more-box ol, .items-more-box ul {
 	list-style-type:none;
 	padding-bottom:10px;
@@ -358,28 +323,18 @@ padding-bottom: 8px;
 .items-more-box ol a, .items-more-box ul a {
 	color:#FFF;
 }
-
 .items-more-box ol li, .items-more-box ul li {
 	margin:3px 0;
 }
 
-
-ul#subcategories-template
-{margin:0;}
-ul#subcategories-template li
-{
-display:inline;
-}
-ul#subcategories-template li table
-{
+ul#subcategories-template {margin:0;}
+ul#subcategories-template li {display:inline;}
+ul#subcategories-template li table {
 display:inline-block;
 border-collapse:collapse;
 border:none;
 }
-ul#subcategories-template li table tr,ul#subcategories-template li table td,ul#subcategories-template li table th
-{
-border:none;
-}
+ul#subcategories-template li table tr,ul#subcategories-template li table td,ul#subcategories-template li table th {border:none;}
 #search-grey-wrapper {
 	background:#EAEAEA;
 	margin-bottom:30px;
@@ -391,9 +346,7 @@ border:none;
 	padding:5px;
 }
 #table-search td dt, #table-search td dd { display: inline;}
-#table-search input, #table-search label {
-	display:inline;
-}
+#table-search input, #table-search label {display:inline;}
 #table-search td dt+dd:before {content: '\D\A';
 white-space: pre;}
 #table-search td dd:first-child:before {content: normal;}
@@ -402,34 +355,7 @@ white-space: pre;}
 	content:'\A';
 	white-space:pre;
 }
-#table-search input, #table-search label {
-	display:inline;
-}
-dt.result-title {
-	font-weight:bold;
-}
-
-dd.result-text
-{
-padding-bottom:10px;
-}
-ul.login2
-{
-	list-style:none;
-}
-
-div.sidebar-social {
-	margin-top:15px;
-	padding-right:15px;
-	text-align:center;
-}
-div.sidebar-social a {
-	opacity: 0.6;
-}
-div.sidebar-social a:hover {
-	opacity:1;
-}
-div.valaddthisposition {
-	margin-top: 20px;
-	float: right;
-}
+#table-search input, #table-search label {display:inline;}
+dt.result-title {font-weight:bold;}
+dd.result-text {padding-bottom:10px;}
+ul.login2 {list-style:none;}
